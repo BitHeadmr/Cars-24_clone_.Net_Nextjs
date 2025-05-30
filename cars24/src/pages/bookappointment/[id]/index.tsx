@@ -55,7 +55,6 @@ const BookAppointmentPage = () => {
       toast.error("Pleasde login to continue");
       return;
     }
-   c
     toast.error("Failed to list Appointmets");
     // Here you would typically send the data to your backend
     console.log("Appointment Data:", formData);
